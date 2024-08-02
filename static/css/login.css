@@ -1,0 +1,68 @@
+body{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background: rgb(207, 197, 216);
+    height: 90%;
+    width: 60%;
+    display: flexbox;
+    margin-left: 15rem;
+}
+form{
+    background: gray;
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 8rem;
+}
+label{
+    height: 2rem;
+    width: 80%;
+    margin: 0rem 1rem;
+}
+.input1{
+    height: 2rem;
+    width: 80%;
+    margin: .5rem 1rem;
+}
+.forget{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
+.forget input{
+    
+    height: 1.5rem;
+    width: 1.5rem;    
+    
+}
+.remember{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: medium;
+}
+.Remb{
+    width: 80%;
+}
+button{
+    height: 2rem;
+    width: 80%;
+    margin: 1.5rem 0;
+}
+.register{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+    
+}
+
+
